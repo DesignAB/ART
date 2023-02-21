@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /tpl_voting_sys/
+Disallow: /admarea/
+Disallow: /cgi-bin/
+Sitemap: https://smart.tozobacz.pl/sitemap.xml

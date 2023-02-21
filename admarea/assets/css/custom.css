@@ -1,0 +1,207 @@
+/*                   roots                   */
+:root {
+  --hamburger-width: 30px;
+  --lead-color-rgb: 237, 26, 59;
+  --lead-black-rgb: 0, 0, 0;
+  --lead-white-rgb: 255, 255, 255;
+  --lead-blue-rgb: 34, 61, 97;
+
+}
+
+/*                   roots                   */
+/*                   typo  roboto 100, 300, 500 900                 */
+
+body {
+  margin: 0;
+  font-family: "WebsiteFont", sans-serif !important;
+  font-style: "Regular";
+  overflow-x: hidden;
+}
+ /*•••••••••••••••••••••• BOOTSTRAP OVERRIDE ••••••••••••••••••••••*/
+ .bg-danger{
+  background-color: #D95204 !important; 
+ }
+ .bg-success{
+  background-color: #83A603 !important;
+ }
+ .bg-primary{
+  background-color: #049DD9 !important;
+ }
+ .bg-secondary{
+  background-color: #595959 !important;
+ }
+ .text-danger{
+  color: #D95204 !important; 
+ }
+ .text-success{
+  color: #83A603 !important; 
+ }
+ .text-secondary{
+  color: #595959 !important; 
+ }
+.btn-sm{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: .8rem !important;
+
+
+}
+
+ /*•••••••••••••••••••••• BOOTSTRAP OVERRIDE ••••••••••••••••••••••*/
+
+
+a {
+  text-decoration: none !important;
+}
+h1, h2{
+  font-weight: 900;
+}
+h3, h4 {
+  font-weight: 500;
+}
+h5, h6 {
+  font-weight: 300;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+/*font-size: .9rem;
+*/  
+  font-weight: 100;
+
+}
+.small{
+  font-size: .7rem;
+  line-height: .9rem !important;
+}
+
+
+ label {
+  font-size: 1rem;
+  font-weight: 300;
+}
+ .form-control, textarea, .input-group-text {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+/*  resize: none !important;*/
+}
+.input-group-text{
+  background-color: transparent;
+}
+ input:focus, textarea:focus,  .input-group-text:focus-within{
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+  border-color: #D95204 !important;
+
+}
+ input:disabled {
+  /* background: #D95204 !important; */
+}
+
+textarea {
+  padding-left: 0px !important;
+}
+ input,
+ textarea,
+ .input-group-text,
+ .btn,
+/* .badge,
+*/
+ .alert,
+ .card,
+ .card-img .card-img-top
+{
+  border-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+ .badge{
+  font-size: .8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+ .form-check-input:checked {
+  background-color: #D95204;
+  border-color: #D95204;
+}
+ .form-control {
+transition: all .5s;
+}
+
+ .form-control:disabled {
+  background-color: #D95204;
+  opacity: .5;
+}
+ .form-control[readonly] {
+  background-color: transparent;
+  color: #D95204;
+}
+
+.custom-file-button input[type=file] {
+  margin-left: -2px !important;
+}
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+  display: none;
+}
+.custom-file-button input[type=file]::file-selector-button {
+  display: none;
+}
+.custom-file-button label {
+  background-color: #D95204;
+  cursor: pointer;
+  color: white;
+}
+/*.custom-file-button:hover label {
+  background-color: #dde0e3;
+  cursor: pointer;
+}
+*/
+
+
+.contests-list{
+  background-color: white;
+  transition: all .8s;
+}
+.contests-list:hover{
+  background-color: #F2F2F2;
+}
+/*datepicker*/
+
+.datepicker-dropdown {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.datepicker td, .datepicker th {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+}
+
+.datepicker {
+    margin-bottom: 3rem;
+}
+.navbar.admin-navbar{
+  
+}
+.navbar.admin-navbar a{
+  color: tomato;
+  text-transform: uppercase;
+}
+
+.bg-01 {
+  background: rgba(var(--lead-color-1), 1);
+}
+.bg-02 {
+  background: rgba(var(--lead-color-2), 1);
+}
+.bg-03 {
+  background: rgba(var(--lead-color-3), 1);
+}
+.bg-04 {
+  background: rgba(var(--lead-color-4), 1);
+}
+
+
